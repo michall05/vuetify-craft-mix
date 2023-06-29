@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: page
+name: Page
+propagationMethod: all
+siteSettings:
+  0945b26d-51c8-4198-a65e-af4182cb88e6: # craft
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: 'page/{slug}'
+structure:
+  maxLevels: null
+  uid: bfc5ab76-0de5-47e3-ae31-8a72c04c4c08
+type: structure

@@ -1,0 +1,44 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 199dfcb6-edcb-45ea-8466-3a3036e20837 # Common
+handle: card
+instructions: null
+name: Card
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 881003573
+  columns:
+    __assoc__:
+      -
+        - d68fe90d-f28e-47be-8a8d-5c94b9b4830b # Card Title
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - b3dfeadf-4aff-469c-a53f-3a9bfec5b991 # Card Text
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - eafd68f7-80d2-4d9c-9221-8524cc96cb5f # Card Link
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_card}}'
+  fieldLayout: table
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: null
+translationKeyFormat: null
+translationMethod: none
+type: verbb\supertable\fields\SuperTableField

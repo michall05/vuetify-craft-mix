@@ -1,0 +1,41 @@
+dateModified: 1687356780
+email:
+  fromEmail: michal@creode.co.uk
+  fromName: craft
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    8b6f0858-73a6-4147-a7e2-7b2902d778af: craft # craft
+    65d97c16-0fb7-4ce6-a756-11b066009e73: Card # Card
+    92a97c70-4743-4fd4-a2f1-9644b45becc8: Page # Page
+    199dfcb6-edcb-45ea-8466-3a3036e20837: Common # Common
+    0945b26d-51c8-4198-a65e-af4182cb88e6: craft # craft
+    b3dfeadf-4aff-469c-a53f-3a9bfec5b991: 'Card Text' # Card Text
+    d68fe90d-f28e-47be-8a8d-5c94b9b4830b: 'Card Title' # Card Title
+    eafd68f7-80d2-4d9c-9221-8524cc96cb5f: 'Card Link' # Card Link
+    ec1f2f3a-cc09-4688-8338-34217a2c1921: Default # Default
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: solo
+  live: true
+  name: craft
+  schemaVersion: 4.4.0.4
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true
